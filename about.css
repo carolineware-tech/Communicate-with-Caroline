@@ -1,0 +1,88 @@
+body{
+    padding: 0 5%;
+}
+
+header{
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+nav{
+    font-family:'Courier New', Courier, monospace;
+    padding-top: 20px;
+
+}
+
+nav a{
+    text-decoration: none;
+    margin: 10px;
+    color: navy;
+    text-transform: uppercase;
+
+}
+
+.name{
+    font-family: "permanent marker";
+    color:navy;
+    font-size: 40px;
+    width: 100px;
+}
+
+.subscribe{
+    background-color: navy;
+    color: white;
+    text-transform: uppercase;
+    padding:10px 15px;
+}
+
+.me{
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    padding: 0 10%;
+}
+
+.intro{
+    width: 60%;
+}
+.intro h1{
+    font-family: "Shadows Into Light";
+    font-style: italic;
+    font-size: 30px;
+
+}
+
+.intro p{
+    font-family: 'schoolbell';
+    font-size: 22px;
+}
+.image{
+    width: 40%;
+}
+
+img{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 35px;
+}
+.intro blockquote{
+    font-family: 'Schoolbell';
+    font-style: italic;
+    border-left: 5px navy dotted;
+    margin: 0px;
+    padding: 10 px;
+    background-color: rgb(204, 222, 228);
+}
+
+footer{
+    font-family: 'Courier New' ;
+    border-top: 10px navy dotted;
+    border-bottom: 10px navy dotted;
+    text-align: center;
+    margin: 30px auto;
+    padding: 10px;
+}
